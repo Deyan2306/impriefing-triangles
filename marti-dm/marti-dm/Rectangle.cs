@@ -44,12 +44,13 @@ namespace marti_dm
             int otherTopY = rectangle.LeftCornerY;
             int otherRightX = rectangle.LeftCornerX + rectangle.Width;
             int otherBottomY = rectangle.LeftCornerY + rectangle.Height;
-
+        
             // check if the two rectangles are on top of each other based on the top left coordeinate
-            if ((thisLeftX <= otherLeftX) && (otherLeftX < thisRightX))     { return true; }
-            else if ((thisTopY <= otherTopY) && (otherTopY < thisBottomY))  { return true; }
+            if ((thisLeftX <= otherLeftX) && (otherLeftX < thisRightX))           { return true; }
+            else if ((thisLeftX <= otherRightX) && (otherRightX < thisRightX))    { return true; }
+            else if ((thisTopY <= otherTopY) && (otherTopY < thisBottomY))        { return true; }
+            else if ((thisTopY <= otherBottomY) && (otherBottomY < thisBottomY))  { return true; }
 
             return false;
-        }
     }
 }
