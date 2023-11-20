@@ -52,5 +52,6 @@ namespace marti_dm
             else if ((thisTopY <= otherBottomY) && (otherBottomY < thisBottomY))  { return true; }
 
             return false;
+        }
     }
 }
