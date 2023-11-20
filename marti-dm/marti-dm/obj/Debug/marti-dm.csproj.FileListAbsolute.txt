@@ -1,0 +1,7 @@
+C:\Users\deyan\Desktop\marti-dm\marti-dm\bin\Debug\marti-dm.exe.config
+C:\Users\deyan\Desktop\marti-dm\marti-dm\bin\Debug\marti-dm.exe
+C:\Users\deyan\Desktop\marti-dm\marti-dm\bin\Debug\marti-dm.pdb
+C:\Users\deyan\Desktop\marti-dm\marti-dm\obj\Debug\marti-dm.csproj.AssemblyReference.cache
+C:\Users\deyan\Desktop\marti-dm\marti-dm\obj\Debug\marti-dm.csproj.CoreCompileInputs.cache
+C:\Users\deyan\Desktop\marti-dm\marti-dm\obj\Debug\marti-dm.exe
+C:\Users\deyan\Desktop\marti-dm\marti-dm\obj\Debug\marti-dm.pdb
